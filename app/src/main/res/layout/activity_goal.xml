@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Goal"
+    android:background="@drawable/op">
+    <LinearLayout
+
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="เป้าหมาย                                       น้ำหนักที่คุณต้องการ"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:padding="30dp"/>
+
+        <EditText
+            android:id="@+id/weight1"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:hint="น้ำหนัก(kg)"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/n1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="การเผาผลาญของร่างกายในชีวิตประจำวัน"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:padding="25dp"/>
+
+
+        <Spinner
+            android:id="@+id/burn"
+            android:layout_width="319dp"
+            android:layout_height="63dp"
+            android:hint="Weightkg)"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="@drawable/a"
+            android:text="NEXT" />
+        <TextView
+            android:id="@+id/to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/z"
+            android:textSize="25dp"
+            android:padding="30dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

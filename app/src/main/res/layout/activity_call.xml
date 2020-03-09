@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Call"
+    android:background="#C1FFF7F7">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : admin@hotmail.com"
+        android:textColor="#6F4201"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tel : 085-5542547"
+        android:textColor="#6F4201"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f7c77e"
+            android:drawableTop="@drawable/ho"
+            android:text="HOME"
+            android:textColor="#D0000000" />
+
+        <Button
+            android:id="@+id/cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f7c77e"
+            android:drawableTop="@drawable/cal"
+            android:text="Calories" />
+
+        <Button
+            android:id="@+id/food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f7c77e"
+            android:drawableTop="@drawable/food"
+            android:text="Food" />
+
+
+        <Button
+            android:id="@+id/set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f7c77e"
+            android:drawableTop="@drawable/tt"
+            android:text="Setting" />
+    </LinearLayout>
+</RelativeLayout>

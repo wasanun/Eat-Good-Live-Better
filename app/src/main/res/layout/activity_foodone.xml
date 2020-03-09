@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Foodone"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#C1FFF7F7">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Menu"
+            android:textColor="#FF9800"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/h1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="รายการที่เลือก"
+            android:textColor="#630707"
+            android:textSize="15sp" />
+
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:cacheColorHint="#00000000"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>

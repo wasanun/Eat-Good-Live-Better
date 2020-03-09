@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">EAT GOOD LIVE BETTER</string>
+
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+    <string-array name="burn">
+        <item>นั่งทำงานอยู่กับที่ และไม่ได้ออกกำลังกายเลย</item>
+        <item>ออกกำลังกายเล็กน้อย ประมาณอาทิตย์ละ 1-3 วัน</item>
+        <item>ออกกำลังกายปานกลาง ประมาณอาทิตย์ละ 3-5 วัน</item>
+        <item>ออกกำลังกายหอย่างหนัก ประมาณอาทิตย์ละ 6-7 วัน </item>
+        <item>ออกกำลังกายหอย่างหนักทุกวันเช้าเย็น</item>
+
+
+    </string-array>
+
+    <string-array name="bu">
+        <item>ข้าว  80  Kcal </item>
+        <item>ข้าวเหนียว 160 Kcal </item>
+        <item>ขนมปัง 80 Kcal </item>
+        <item>เส้นขนมจีน 80 Kcal </item>
+        <item>เส้นใหญ่  80 Kcal </item>
+        <item>มะกะโรนีสุก  80 Kcal </item>
+
+    </string-array>
+
+    <string-array name="bu1">
+        <item>ไข่  72 Kcal่ </item>
+        <item>เต้าหู้ไข่  70 Kcal </item>
+        <item>อกไก่  156 Kcal </item>
+        <item>เนื้อกุ้ง  156 Kcal่ </item>
+        <item>เนื้อปลา  156 Kcal </item>
+        <item>โปรตีนเกษตร  366 Kcal </item>
+        <item>ทูน่ากระป๋องในน้ำแร่  175 Kcal่ </item>
+        <item>น้ำมัน  120 Kcal </item>
+        <item>ชีส  70 Kcal </item>
+        <item>เนย  110 Kcal </item>
+        <item>น้ำสลัด  45 Kcal่ </item>
+        <item>สะตอ  132 Kcal่ </item>
+        <item>ยอดชะอม  80 Kcal </item>
+        <item>ผักกวางตุ้ง  14 Kcal </item>
+        <item>ต้นหอม  34 Kcal </item>
+        <item>ผักกาดหอม  27 Kcal </item>
+        <item>ต้นคะน้า  31 Kcal </item>
+        <item>บล็อคโคลี่  33 Kcal </item>
+    </string-array>
+
+
+</resources>

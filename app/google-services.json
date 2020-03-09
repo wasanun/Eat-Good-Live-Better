@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "472249498629",
+    "firebase_url": "https://eat-good-1938b.firebaseio.com",
+    "project_id": "eat-good-1938b",
+    "storage_bucket": "eat-good-1938b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472249498629:android:bce643480b6ede7b74b06c",
+        "android_client_info": {
+          "package_name": "com.example.eatgood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472249498629-98afuuh9530ukr2d3agk9aocr7ek1vij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eatgood",
+            "certificate_hash": "144d678573b756204079e64edc8820cf8866cc2c"
+          }
+        },
+        {
+          "client_id": "472249498629-dcre7f9v5s3ebvqmr536b7e5mdg2o42t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjPAp-BuY08UdNPkA-gaDASLTp9nd-6oQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472249498629-dcre7f9v5s3ebvqmr536b7e5mdg2o42t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

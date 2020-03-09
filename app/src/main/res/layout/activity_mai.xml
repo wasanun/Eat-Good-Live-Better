@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mai"
+    android:background="#C1FFF7F7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ปริมาณแคลอรี่                                       ที่ควรบริโภคต่อวัน"
+            android:textSize="25dp"
+            android:textColor="#FFC107"
+            android:padding="30dp"/>
+
+
+
+        <LinearLayout
+
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/nt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="TextView"
+                android:textColor="#500202"
+                android:textSize="35dp" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="เลือกวัตถุดิบอาหาร"
+            android:textSize="25dp"
+            android:textColor="#FFC107"
+            android:padding="30dp"/>
+        <Spinner
+            android:id="@+id/bu"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="#F3E7AC"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+        <Spinner
+            android:id="@+id/bu1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:background="#F3E7AC"
+            android:padding="15dp" />
+        <Spinner
+            android:id="@+id/bun"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:background="#F3E7AC"
+            android:padding="15dp" />
+
+        <Spinner
+            android:id="@+id/buu"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:background="#F3E7AC"
+            android:padding="15dp" />
+
+    </LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f7c77e"
+            android:drawableTop="@drawable/ho"
+            android:text="HOME"
+            android:textColor="#D0000000" />
+
+        <Button
+            android:id="@+id/cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f7c77e"
+            android:drawableTop="@drawable/cal"
+            android:text="Calories" />
+
+        <Button
+            android:id="@+id/food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f7c77e"
+            android:drawableTop="@drawable/food"
+            android:text="Food" />
+
+
+        <Button
+            android:id="@+id/set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f7c77e"
+            android:drawableTop="@drawable/tt"
+            android:text="Setting" />
+
+    </LinearLayout>
+
+</RelativeLayout>
