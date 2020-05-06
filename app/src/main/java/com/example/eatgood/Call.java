@@ -30,7 +30,7 @@ public class Call extends AppCompatActivity {
         food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent T2 = new Intent(Call.this, Food.class);
+                Intent T2 = new Intent(Call.this, Menu.class);
                 startActivity(T2);
             }
         });

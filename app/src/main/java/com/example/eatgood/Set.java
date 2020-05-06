@@ -33,6 +33,7 @@ public class Set extends AppCompatActivity {
         h1 = (Button) findViewById(R.id.h1);
         nt = findViewById(R.id.nt);
 
+
         h1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,7 +51,7 @@ public class Set extends AppCompatActivity {
         food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent T2 = new Intent(Set.this, Food.class);
+                Intent T2 = new Intent(Set.this, Menu.class);
                 startActivity(T2);
             }
         });
@@ -61,6 +62,7 @@ public class Set extends AppCompatActivity {
                 startActivity(T2);
             }
         });
+
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         testapp = database.getReference();

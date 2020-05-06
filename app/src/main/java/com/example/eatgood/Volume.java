@@ -33,7 +33,8 @@ public class Volume extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_volume);
 
-       // t2 = (TextView) findViewById(R.id.t2);
+        t2 = (TextView) findViewById(R.id.t2);
+        //ca = (Button) findViewById(R.id.ca);
         t3 = (TextView) findViewById(R.id.t3);
         nt = findViewById(R.id.nt);
         top = findViewById(R.id.top);
@@ -59,6 +60,7 @@ public class Volume extends AppCompatActivity {
         final String txt_get_id = intent.getStringExtra("id");
         final String txt_get_title = intent.getStringExtra("title");
         t3.setText(txt_get_title);
+
 
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -95,7 +97,7 @@ public class Volume extends AppCompatActivity {
         food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent T2 = new Intent(Volume.this, Food.class);
+                Intent T2 = new Intent(Volume.this, Menu.class);
                 startActivity(T2);
             }
         });
@@ -113,6 +115,7 @@ public class Volume extends AppCompatActivity {
                 startActivity(T2);
             }
         });
+
 
 
     }

@@ -88,6 +88,7 @@ public class Foodtwo extends AppCompatActivity {
                         showPage.putExtra("id",""+itemPosition+"");
                         showPage.putExtra("title",""+itemValue+"");
                         startActivity(showPage);
+
                     }
                 });
             }
